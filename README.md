@@ -24,4 +24,4 @@ File -> Preferences
 ![Screenshot](./screenshots/board.png)
 ![Screenshot](./screenshots/port.png)
 
-5. Открываем и запускаем файл lold1mini.ino.
+5. Загружаем и запускаем файл lold1mini.ino.
