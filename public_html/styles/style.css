@@ -1,0 +1,277 @@
+*, 
+*::before, 
+*::after { 
+  box-sizing: border-box; 
+} 
+ 
+html { 
+  width: 100%; 
+  height: 100%; 
+} 
+ 
+h1, 
+h2, 
+h3 { 
+  margin: 0; 
+  padding: 0; 
+} 
+ 
+body { 
+  max-width: 1440px; 
+  min-width: 1100px; 
+  margin: auto; 
+  font-family: Raleway, sans-serif; 
+  background-color: #c3dbf6; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+} 
+ 
+.body_device { 
+  margin-top: 10vh; 
+} 
+ 
+header { 
+  display: flex; 
+  justify-content: flex-end; 
+  width: 100%; 
+} 
+ 
+main { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  gap: 20px; 
+  margin-top: 10vh; 
+} 
+ 
+.main_token { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: row; 
+} 
+ 
+.section_entrance { 
+  background-color: white; 
+  min-width: 50vw; 
+  min-height: 60vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  border: 10px #73b5ff solid; 
+  border-radius: 15px; 
+  padding: 15px; 
+} 
+ 
+.form_entrance { 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  width: 50vw; 
+} 
+ 
+.title { 
+  font-size: 48px; 
+} 
+ 
+.input_section { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  width: 70%; 
+} 
+ 
+.paragraph { 
+  font-size: 24px; 
+  margin-bottom: 10px; 
+} 
+ 
+.input { 
+  width: 100%; 
+  height: 30px; 
+  font-size: 24px; 
+} 
+ 
+.button_entrance { 
+  width: 150px; 
+  height: 35px; 
+  font-size: 24px; 
+  margin-top: 30px; 
+  background-color: #c3dbf6; 
+  border: 3px #73b5ff solid; 
+  border-radius: 3px; 
+  padding: 5px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+} 
+ 
+.button_registration { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 300px; 
+  height: 35px; 
+  font-size: 24px; 
+  margin-top: 30px; 
+  background-color: #c3dbf6; 
+  border: 3px #73b5ff solid; 
+  border-radius: 3px; 
+  text-decoration: none; 
+  color: black; 
+} 
+ 
+.device_object { 
+  display: flex; 
+  margin-left: 10px; 
+  width: 100%; 
+  gap: 20px; 
+  justify-content: center; 
+  align-items: center; 
+} 
+ 
+.device_div { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background-color: #fff; 
+  width: 250px; 
+  font-size: 24px; 
+  padding: 30px; 
+  border: 3px #73b5ff solid; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+} 
+ 
+.device_name { 
+  word-break: break-all; 
+} 
+ 
+.device_description { 
+  min-height: 48.8px; 
+  height: 48.8px; 
+  width: 500px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  resize: vertical; 
+  text-align: center; 
+  padding: 0px; 
+} 
+
+.device_description-lk { 
+  min-height: 50px; 
+  height: 50px; 
+  width: 500px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  resize: vertical; 
+  text-align: center; 
+  padding: 0px; 
+} 
+ 
+.device_description_add { 
+  min-height: 100px; 
+  height: 100px; 
+  width: 500px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  resize: vertical; 
+  text-align: center; 
+  padding: 0px; 
+} 
+ 
+.device_id { 
+  width: 200px; 
+} 
+ 
+.device_temperature { 
+  width: 200px; 
+} 
+ 
+.button_token { 
+  background-color: #c3dbf6; 
+  border: 3px #73b5ff solid; 
+  border-radius: 5px; 
+  height: 64.8px; 
+  font-size: 24px; 
+  padding: 30px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-size: 24px; 
+} 
+ 
+.graph_section { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+} 
+ 
+.graph { 
+  background-color: #fff; 
+  border: 3px #73b5ff solid; 
+  border-radius: 5px; 
+  height: 60vh; 
+  width: 60vw; 
+  margin-top: 20px; 
+} 
+ 
+.paragraph_error { 
+  color: red; 
+} 
+ 
+.button_add { 
+  background-color: #c3dbf6; 
+  border: 3px #73b5ff solid; 
+  border-radius: 5px; 
+  height: 50px; 
+  font-size: 24px; 
+  padding: 30px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-decoration: none; 
+} 
+ 
+.form_token { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  background-color: #fff; 
+  border: 5px #73b5ff solid; 
+  border-radius: 10px; 
+  padding: 5px; 
+}
+
+.max_temperature {
+    color: red;
+}
+
+.min_temperature {
+    color: blue;
+}
+
+normal_temperature {
+    color: black;
+}
+
+.profile_form { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  background-color: #fff; 
+  border: 5px #73b5ff solid; 
+  border-radius: 10px; 
+  padding: 5px; 
+  height: 250px; 
+}
