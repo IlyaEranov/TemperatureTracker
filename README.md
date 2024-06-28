@@ -10,11 +10,18 @@ File -> Preferences
 
 Вставляем URL: https://arduino.esp8266.com/stable/package_esp8266com_index.json
 
+![Screenshot](./screenshots/Preferences.png)
+
 3. Устанавливаем библиотеки и драйвера.
 
 Библиотеки: GyverBME280, ESP8266 Microgear
 Драйвера: CH341SER
 
+![Screenshot](./screenshots/libraries.png)
+
 4. Настраиваем Board и подключаемся к порту.
 
-5. Запускаем файл.
+![Screenshot](./screenshots/board.png)
+![Screenshot](./screenshots/port.png)
+
+5. Открываем и запускаем файл lold1mini.ino.
