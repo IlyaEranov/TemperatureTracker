@@ -2,5 +2,5 @@
 
 1. Схема подключения микроконтролера к датчику.
 
-![Screenshot](./wemos-BME280.png)
+![Screenshot](./screenshots/wemos-BME280.png)
 
