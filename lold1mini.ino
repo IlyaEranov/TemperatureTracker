@@ -2,11 +2,9 @@
 #include <ESP8266HTTPClient.h>
 #include <GyverBME280.h>
 
-const char* ssid = "door";
-const char* password = "12345678";
-String url = "http://c92793sz.beget.tech/device_input.php";
-
-// "http://c92793sz.beget.tech/device_input.php?temperature=30&token=5adb506125640027afbc680e3dbc0076"
+const char* ssid = "your connection name";
+const char* password = "password";
+String url = "your url server";
 
 GyverBME280 bme;
 
@@ -24,7 +22,7 @@ void setup() {
 void loop() {
 
   String t = String(bme.readTemperature());
-  String data = url + "?temperature=" + t + "&token=5adb506125640027afbc680e3dbc0076";
+  String data = url + "?temperature=" + t + "your token";
   Serial.println(t);
   Serial.println(data);
 
